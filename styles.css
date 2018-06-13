@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  color: #3f3f3f;
+  font-size: 160%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.notification {
+  background: rgba(45, 235, 155, 0.9);
+  border-radius: 0.3rem 0 0 0.3rem;
+  border: 1px solid rgba(15, 210, 55, 0.5);
+  box-shadow: 1px 1px 1rem rgba(22, 22, 22, 0.25);
+  min-width: 40rem;
+  max-width: 75rem;
+  position: absolute;
+  top: 3rem;
+  right: -100%;
+}
+
+.message {
+  color: rgba(19, 19, 34, 0.9);
+  margin: 0;
+  opacity: 1;
+  padding: 1.5rem 3rem;
+  position: relative;
+  right: -100%;
+  text-shadow: 1px 1px rgb(189, 255, 197);
+}
+
+.message > h2 {
+  display: block;
+  font-size: 350%;
+  margin: 0;
+  padding: 0;
+}
+
+.follow,
+.fact,
+.ping {
+  display: inline-block;
+  height: 71px;
+  width: 71px;
+}
+
+.follow {
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/724216/2.0) 0 1.8rem no-repeat;
+}
+
+.fact {
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/123171/2.0) 0 1.5rem no-repeat;
+}
+
+.ping {
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/160402/2.0) 0 1.5rem no-repeat;
+}
+
+.message > p {
+  font-size: 160%;
+  margin: 0;
+  padding-top: 1rem;
+}
