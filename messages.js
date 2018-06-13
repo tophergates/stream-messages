@@ -2,7 +2,7 @@
   const notificationEl = document.querySelector('.notification');
   const message = document.querySelector('.message');
   const animationDuration = 10; // seconds
-  const delay = 0.15 // minutes
+  const delay = 10 // minutes
   const messageIn = new Audio('message-in.mp3');
   messageIn.volume = 0.95;
   const messageOut = new Audio('message-out.ogg');
